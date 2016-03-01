@@ -1,0 +1,225 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+	margin: 0 auto; 
+	padding: 0 10px; 
+}
+
+/* Nav */
+
+.nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav {
+    border-color: #000;
+}
+
+.nav-tabs > li > a:hover{
+  background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+
+/* Jumbotron */
+
+.jumbotron h1 {
+	font-family: 'Railway', sans-serif;
+	font-weight: 100;
+    color: #fff;
+    top: 150px;
+    position: relative;
+}
+
+.jumbotron h2 {
+	font-family: 'Railway', sans-serif;
+	font-weight: 100;
+    color: #fff;
+    position: relative;
+    top: 200px;
+}
+
+.jumbotron {
+    background: url('../img/background.jpg') no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  height: 700px;
+  text-align: center;
+}
+
+.jumbotron .btn {
+    position: relative;
+    top: 250px;
+    color: #fff;
+    border-color: #fff;
+    background: none;
+    font-size: 1.2em;
+    padding: 10px 30px;
+}
+
+/* Portfolio */
+.container .sample {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0px 40px 0px;
+}
+
+.container .portfolio {
+    margin: 0 auto;
+    padding-left: 0;
+    position: relative;
+}
+
+.sample img {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.container figure p {
+    margin: auto;
+    font-size: 1.25em;
+    font-family: 'Railway', sans-serif;
+	font-weight: 100;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 30px 0px 20px 0px;
+}
+
+@media (max-width 992px) {
+    .container figure p {
+        padding: 0px !important;
+    }
+}
+
+/*About Me*/
+
+
+.container .aboutme {
+    margin: 0 auto;
+}
+
+.aboutme {
+    background: url('../img/background.jpg') no-repeat center center;
+    background-attachment: fixed;
+    height: auto;
+    margin: auto;
+    padding: 70px 30px;
+    position: relative;
+}
+
+.aboutme img {
+   margin: 0 auto; 
+    display: block;
+    position: relative
+}
+
+.aboutme h2 {
+    display: block;
+    position: relative;
+    color: #fff;
+
+}
+
+@media (max-width 300px) {
+    .aboutme img {
+        margin: 0 auto;
+        float: right !important;
+    }
+}
+
+/*Skills*/
+
+.container .skills {
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 70px 30px;
+}
+
+/*Footer*/
+
+.footer {
+    clear: both;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0 auto;
+    position: relative;
+}
+
+i {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding: 5px;
+}
+
+/* Extra*/
+h3, h2 {
+    font-family: 'Railway', sans-serif;
+	font-weight: 100;
+    color: #000;
+    position: relative;
+    display: block;
+}
+
+.aboutpage {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding: 70px 30px 70px 40px;
+}
+
+.aboutpage img {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.aboutpage p {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+     font-family: 'Railway', sans-serif;
+	font-weight: 100;
+    color: #000;
+    position: relative;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+/* Media Queries */
+
+@media (max-width 500px) {
+    .sample img {
+        width: 100%;
+    }
+    
+     .container  {
+        margin: 0 auto;
+        padding: 0 60px;
+    }
+}
